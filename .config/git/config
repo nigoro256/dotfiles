@@ -1,0 +1,20 @@
+[user]
+name = XXX
+email = XXX@example.com
+
+[alias]
+ci = commit
+br = branch
+co = checkout
+sw = switch
+re = restore
+st = status
+df = diff
+
+b = branch -vv
+bb = branch -avv
+
+f = fetch -v
+ff = fetch -v --all --prune
+
+all = log --oneline --decorate --graph --branches --tags --remotes
