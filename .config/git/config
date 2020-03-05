@@ -18,3 +18,8 @@ f = fetch -v
 ff = fetch -v --all --prune
 
 all = log --oneline --decorate --graph --branches --tags --remotes
+
+[pager]
+log  = diff-highlight | less
+show = diff-highlight | less
+diff = diff-highlight | less
