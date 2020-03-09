@@ -8,7 +8,7 @@ setopt HIST_IGNORE_ALL_DUPS
 
 export PATH="${HOME}/Library/Android/sdk/platform-tools:$PATH"
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-export PATH="$(brew --prefix git)/share/git-core/contrib/diff-highlight:$PATH"
+export PATH="/usr/local/opt/git/share/git-core/contrib/diff-highlight:$PATH"
 
 eval "$(direnv hook zsh)"
 eval "$(rbenv init -)"
