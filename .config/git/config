@@ -10,6 +10,7 @@ sw = switch
 re = restore
 st = status
 df = diff
+pl = pull
 
 b = branch -vv
 bb = branch -avv
