@@ -8,17 +8,20 @@ br = branch
 co = checkout
 sw = switch
 re = restore
-st = status
 df = diff
 pl = pull
+sh = stash
 
 b = branch -vv
 bb = branch -avv
 
-f = fetch -v
-ff = fetch -v --all --prune
+f = fetch
+ff = fetch --all --prune
 
 all = log --oneline --decorate --graph --branches --tags --remotes
+
+s = status -s
+st = status
 
 [pager]
 log  = diff-highlight | less
