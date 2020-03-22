@@ -6,6 +6,8 @@ compinit
 setopt AUTO_CD
 setopt HIST_IGNORE_ALL_DUPS
 
+bindkey \^U backward-kill-line
+
 export PATH="${HOME}/Library/Android/sdk/platform-tools:$PATH"
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 export PATH="/usr/local/opt/git/share/git-core/contrib/diff-highlight:$PATH"
