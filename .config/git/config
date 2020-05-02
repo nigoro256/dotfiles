@@ -23,6 +23,8 @@ all = log --oneline --decorate --graph --branches --tags --remotes
 s = status -s
 st = status
 
+his = log --all --full-history
+
 [pager]
 log  = diff-highlight | less
 show = diff-highlight | less
