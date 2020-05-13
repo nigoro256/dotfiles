@@ -46,4 +46,6 @@ function zsh-left-prompt {
 
   echo "${L1}%*${BG}${L2_B}${FG}${L1_B}${sharp} ${L2}%?${RESET}${FG}${L2_B}${sharp} ${RESET}"
 }
-PROMPT="`zsh-left-prompt`"
+if [[ "$LANG" =~ 'UTF-8$' ]]; then
+  PROMPT="`zsh-left-prompt`"
+fi
