@@ -24,6 +24,7 @@ s = status -s
 st = status
 
 his = log --all --full-history
+ignored-files = ls-files --other --ignored --exclude-standard
 
 [pager]
 log  = diff-highlight | less
