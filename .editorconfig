@@ -1,5 +1,36 @@
 root = true
 
+[*]
+end_of_line = lf
+
 [*.sh]
+indent_style = space
+indent_size = 2
+
+[*.css]
+indent_style = space
+indent_size = 2
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[*.php]
+indent_style = space
+indent_size = 2
+
+[*.inc]
+indent_style = space
+indent_size = 2
+
+[*.html]
+indent_style = space
+indent_size = 2
+
+[*.xml]
+indent_style = space
+indent_size = 2
+
+[*.java]
 indent_style = space
 indent_size = 2
