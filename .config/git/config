@@ -33,3 +33,6 @@ diff = diff-highlight | less
 
 [pull]
 ff = only
+
+[rebase]
+autostash = true
