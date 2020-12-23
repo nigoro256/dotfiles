@@ -14,6 +14,7 @@ sh = stash
 
 b = branch -vv
 bb = branch -avv
+contains = branch --contains
 
 f = fetch
 ff = fetch --all --prune
@@ -25,6 +26,10 @@ st = status
 
 his = log --all --full-history
 ignored-files = ls-files --other --ignored --exclude-standard
+
+# dry run merge.
+#   after: git merge --abort | git reset --hard HEAD
+merge-n = merge --no-commit --no-ff
 
 [pager]
 log  = diff-highlight | less
