@@ -41,3 +41,6 @@ ff = only
 
 [rebase]
 autostash = true
+
+[init]
+defaultBranch = main
