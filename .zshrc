@@ -23,6 +23,7 @@ alias ll='ls -lAF'
 alias g='git'
 alias o='open'
 alias ovsc='open -a "Visual Studio Code"'
+alias catmp='security cms -D -i'
 
 #hash -d alias=/path/to/directory
 
