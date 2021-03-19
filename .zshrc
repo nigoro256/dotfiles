@@ -24,6 +24,8 @@ alias g='git'
 alias o='open'
 alias ovsc='open -a "Visual Studio Code"'
 alias catmp='security cms -D -i'
+alias dclean="dot_clean .; fd -uu -F '.DS_Store' -X rm {}"
+alias rmed='fd -t d -t e -X rm -vd {}'
 
 #hash -d alias=/path/to/directory
 
