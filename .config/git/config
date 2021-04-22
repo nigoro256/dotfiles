@@ -19,7 +19,7 @@ contains = branch --contains
 f = fetch
 ff = fetch --all --prune
 
-all = log --oneline --decorate --graph --branches --tags --remotes
+all = log --graph --branches --tags --remotes
 
 s = status -s
 st = status
