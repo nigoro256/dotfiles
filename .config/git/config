@@ -18,13 +18,14 @@ contains = branch --contains
 
 f = fetch
 ff = fetch --all --prune
+f-org-all = fetch --prune origin '+refs/heads/*:refs/remotes/origin/*'
 
 all = log --graph --branches --tags --remotes
+his = log --all --full-history
 
 s = status -s
 st = status
 
-his = log --all --full-history
 ignored-files = ls-files --other --ignored --exclude-standard
 
 # dry run merge.
