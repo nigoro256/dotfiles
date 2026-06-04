@@ -17,8 +17,8 @@ bb = branch -avv
 contains = branch --contains
 
 f = fetch
-ff = fetch --all --prune
-f-org-all = fetch --prune origin '+refs/heads/*:refs/remotes/origin/*'
+ff = fetch --prune
+fff = fetch --prune --all
 
 all = log --graph --branches --tags --remotes
 his = log --all --full-history
@@ -45,3 +45,7 @@ autostash = true
 
 [init]
 defaultBranch = main
+
+[diff]
+indentHeuristic = true
+algorithm = histogram
